@@ -1,6 +1,6 @@
 require './constants'
 
-task :mokuroku
+task :mokuroku do
   sh "curl -O #{MOKUROKU_URL}"
 end
 
